@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-class Signup extends Component {
-  state = {};
+
+class SignUpComponent extends Component {
   render() {
-    return <div>Signup</div>;
+    return <div></div>;
   }
 }
 
-export default Signup;
+export default SignUpComponent;

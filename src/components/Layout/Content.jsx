@@ -6,6 +6,7 @@ import LifeCycleComponent from "../lifeCycle/lifeCycle";
 import CommunicationComponent from "../communication/communication";
 import FormsComponent from "../forms/forms";
 import HOC from "../HOC/HOC";
+import ReduxComponent from "../Redux/Redux";
 class Content extends Component {
   state = {};
   render() {
@@ -28,6 +29,9 @@ class Content extends Component {
         </Route>
         <Route path="/hoc">
           <HOC />
+        </Route>
+        <Route path="/redux">
+          <ReduxComponent />
         </Route>
       </Switch>
     );

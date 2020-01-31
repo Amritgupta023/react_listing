@@ -30,6 +30,9 @@ class Sidenav extends Component {
           <li>
             <Link to="/hoc">HOC</Link>
           </li>
+          <li>
+            <Link to="/redux">Redux</Link>
+          </li>
         </ul>
       </div>
     );

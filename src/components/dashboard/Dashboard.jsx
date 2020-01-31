@@ -1,5 +1,11 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Link,
+  Route,
+  Switch,
+  useRouteMatch
+} from "react-router-dom";
 
 import DashBoard1 from "./Dashboard1";
 import Dashboard2 from "./Dashboard2";
@@ -13,7 +19,6 @@ class DashboardComponent extends Component {
   }
 
   render() {
-    console.log("dashboard loaddd", Router);
     return (
       <div>
         <Router>
